@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import '../App.css';
 import { useNavigate} from 'react-router-dom';
 import gsap from 'gsap';
+import GroupExample from '../groupCards';
 
 
 function About() {
@@ -35,9 +36,12 @@ function About() {
                         </div>
                         </div>
             </div>
-            <div> 
-                    
-                    </div>
+            <div>
+                <h2 className='header mt-3 mb-3'>Home remodeling process</h2>
+            </div>
+            <div>
+                <GroupExample/>   
+            </div>
         </div>
     )
 }

@@ -21,13 +21,16 @@ display: flex;
   display: flex;
   flex-wrap: wrap;
 }
-.portfolio-card {
-  padding: 4%;
-  flex-grow: 1;
-  flex-basis: 16%;
+.portfolio-image {
+  width: 500px;
+  height: 300px;
   margin: 15px;
 }
-.home-h3 {
+.portfolio-card {
+  flex-grow: 1;
+  flex-basis: 16%;
+}
+.home-h2 {
   margin-bottom: 20px;
 }
 h1, h3 {
@@ -67,13 +70,13 @@ padding: 2%;
 }
 .image-about {
   width: 700px;
-height: 500px;
+  height: 400px;
 }
 .about-text {
 display: flex;
 flex-direction: column;
 padding: 2%;
-font-size: 20px;
+font-size: 18px;
 font-family: 'Philosopher', sans-serif;
 }
 .about-btn {
@@ -83,7 +86,7 @@ font-family: 'Philosopher', sans-serif;
   align-self: center;
 }
 .about-btn {
-  
+  font-size: 17px;
   color: black !important;
   text-decoration: none;
   padding: 20px;
@@ -145,15 +148,70 @@ font-family: 'Philosopher', sans-serif;
     border-color: #9AD0C2;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #9AD0C2;
   }
+
+  .cards {
+    margin: 15px;
+  }
+
+  .single-card {
+    font-family: 'Philosopher', sans-serif;
+    margin: 15px;
+  }
+
+  .single-card:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+  }
+ 
+  @media only screen and (max-width: 1200px) {
+
+    .image-about {
+     width: 350px;
+     height: 200px;
+    }
+
+    .header {
+      font-size: 22px;
+    }
+
+    p {
+      font-size: 15px;
+    }
+
+    .home-h2 {
+      font-size: 17px;
+    }
+    .home-h3 {
+      font-size: 20px;
+      padding: 2%;
+    }
+
+
+    .change {
+     font-size: 14px;
+    }
+
+    .portfolio-image {
+      margin: 15px;
+      width: 350px;
+      height: 200px;
+    }
+
+    .main-section {
+      display: flex;
+      flex-direction: column;
+    }
+    .container-about {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+   
+   }
  @media only screen and (max-width: 768px) {
-  .main-section {
-    display: flex;
-    flex-direction: column;
-  }
-  .container-about {
-    display: flex;
-    flex-direction: column;
-  }
+
   hr {
     position: relative;
     z-index: -1;
@@ -161,23 +219,13 @@ font-family: 'Philosopher', sans-serif;
   .about-text {
     font-size: 18px;
   }
+.header {
+  position: relative;
+    z-index: -1;
+}
 
  }
- @media only screen and (max-width: 1200px) {
-  .main-section {
-    display: flex;
-    flex-direction: column;
-  }
-  .container-about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .image-about {
-    width: 700px;
-    height: 400px;
-  }
- }
+ 
 
 
 

@@ -36,7 +36,7 @@ function Contact() {
   
 
   return (
-      <Container>
+      <Container className="wave-wraper">
             <hr></hr>
             <h1 className="header">Contact Us</h1>
             <hr></hr>
@@ -113,6 +113,7 @@ function Contact() {
             </form>
           </Col>
         </Row>
+ 
       </Container>
   );
 }

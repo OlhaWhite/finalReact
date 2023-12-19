@@ -28,7 +28,7 @@ export const data = [
   
       name: "bathroom",
   
-      image: <img src={imageOne} width="500px" height="300px" alt="one"/>
+      image: <img src={imageOne} className='portfolio-image' alt="one"/>
   
     },
     {
@@ -37,7 +37,7 @@ export const data = [
     
         name: "living-room",
     
-        image: <img src={imageTwo} width="500px" height="300px" alt="one"/>
+        image: <img src={imageTwo} className='portfolio-image' alt="one"/>
     
       },
       {
@@ -46,7 +46,7 @@ export const data = [
     
         name: "kitchen",
     
-        image: <img src={imageThree} width="500px" height="300px" alt="one"/>
+        image: <img src={imageThree} className='portfolio-image' alt="one"/>
     
       },
       {
@@ -55,7 +55,7 @@ export const data = [
     
         name: "kitchen",
     
-        image: <img src={imageFour} width="500px" height="300px" alt="one"/>
+        image: <img src={imageFour} className='portfolio-image' alt="one"/>
     
       },
       {
@@ -64,7 +64,7 @@ export const data = [
     
         name: "kitchen",
     
-        image: <img src={imageFive} width="500px" height="300px" alt="one"/>
+        image: <img src={imageFive} className='portfolio-image' alt="one"/>
     
       },
       {
@@ -73,7 +73,7 @@ export const data = [
     
         name: "bathroom",
     
-        image: <img src={imageSix} width="500px" height="300px" alt="one"/>
+        image: <img src={imageSix} className='portfolio-image' alt="one"/>
     
       },
       {
@@ -82,7 +82,7 @@ export const data = [
       
           name: "bathroom",
       
-          image: <img src={imageSeven} width="500px" height="300px" alt="one"/>
+          image: <img src={imageSeven} className='portfolio-image' alt="one"/>
       
         },
         {
@@ -91,7 +91,7 @@ export const data = [
       
           name: "bathroom",
       
-          image: <img src={imageEight} width="500px" height="300px" alt="one"/>
+          image: <img src={imageEight} className='portfolio-image' alt="one"/>
       
         },
         {
@@ -100,7 +100,7 @@ export const data = [
       
           name: "kitchen",
       
-          image: <img src={imageNine} width="500px" height="300px" alt="one"/>
+          image: <img src={imageNine} className='portfolio-image' alt="one"/>
       
         },
         {
@@ -109,7 +109,7 @@ export const data = [
       
           name: "living-room",
       
-          image: <img src={imageTen} width="500px" height="300px" alt="one"/>
+          image: <img src={imageTen} className='portfolio-image' alt="one"/>
       
         },
         {
@@ -118,7 +118,7 @@ export const data = [
         
             name: "bedroom",
         
-            image: <img src={imageEleven} width="500px" height="300px" alt="one"/>
+            image: <img src={imageEleven} className='portfolio-image' alt="one"/>
         
           },
           {
@@ -127,7 +127,7 @@ export const data = [
           
               name: "bathroom",
           
-              image: <img src={imageTwelve} width="500px" height="300px" alt="one"/>
+              image: <img src={imageTwelve} className='portfolio-image' alt="one"/>
           
             },
             {
@@ -136,7 +136,7 @@ export const data = [
           
               name: "bedroom",
           
-              image: <img src={imageThirteen} width="500px" height="300px" alt="one"/>
+              image: <img src={imageThirteen} className='portfolio-image' alt="one"/>
           
             },
             {
@@ -145,7 +145,7 @@ export const data = [
           
               name: "living-room",
           
-              image: <img src={imageFourteen} width="500px" height="300px" alt="one"/>
+              image: <img src={imageFourteen} className='portfolio-image' alt="one"/>
           
             },
             {
@@ -154,7 +154,7 @@ export const data = [
           
               name: "living-room",
           
-              image: <img src={imageFifteen} width="500px" height="300px" alt="one"/>
+              image: <img src={imageFifteen} className='portfolio-image' alt="one"/>
           
             },
             {
@@ -163,7 +163,7 @@ export const data = [
             
                 name: "bedroom",
             
-                image: <img src={imageSixteen} width="500px" height="300px" alt="one"/>
+                image: <img src={imageSixteen} className='portfolio-image' alt="one"/>
             
               },
               {
@@ -172,7 +172,7 @@ export const data = [
             
                 name: "bathroom",
             
-                image: <img src={imageSeventeen} width="500px" height="300px" alt="one"/>
+                image: <img src={imageSeventeen} className='portfolio-image' alt="one"/>
             
               },
               {
@@ -181,7 +181,7 @@ export const data = [
             
                 name: "kitchen",
             
-                image: <img src={imageEighteen} width="500px" height="300px" alt="one"/>
+                image: <img src={imageEighteen} className='portfolio-image' alt="one"/>
             
               },
               {
@@ -190,7 +190,7 @@ export const data = [
             
                 name: "living-room",
             
-                image: <img src={imageNineteen} width="500px" height="300px" alt="one"/>
+                image: <img src={imageNineteen} className='portfolio-image' alt="one"/>
             
               },
               {
@@ -199,7 +199,7 @@ export const data = [
             
                 name: "bedroom",
             
-                image: <img src={imageTwenty} width="500px" height="300px" alt="one"/>
+                image: <img src={imageTwenty} className='portfolio-image' alt="one"/>
             
               },
 ]

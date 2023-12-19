@@ -32,8 +32,8 @@ ease: "power1.out"});
         {portfolio.map((element => {
             const {id, image} = element;
             return(
-                <div>
-                <div className="portfolio-card" key={id}>
+                <div key={id}>
+                <div className="portfolio-card">
                     {image}
                 </div>
                 <div className="portfolio-info">
